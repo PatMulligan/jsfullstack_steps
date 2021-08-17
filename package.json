@@ -1,0 +1,22 @@
+{
+  "name": "jsfullstack_steps",
+  "version": "1.0.0",
+  "description": "simple app to display valid crypto payments",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatMulligan/jsfullstack_steps.git"
+  },
+  "author": "pat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatMulligan/jsfullstack_steps/issues"
+  },
+  "homepage": "https://github.com/PatMulligan/jsfullstack_steps#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
