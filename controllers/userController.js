@@ -1,5 +1,7 @@
 // relevant code for user features of example app
 
+// import models/User.js constructor function
+const User = require('../models/User')
 
 // node knows when it sees `exports.var_name` to add a property named "var_name" 
 // to the exported object 
@@ -12,9 +14,7 @@ exports.logout = function() {
 }
 
 exports.register = function(req, res) {
-    console.log(req.body) // username is the name attribute of the input tag in the HTML form
-    console.log(req.body.username)
-    console.log(req.body.email)
+    let user = new User() // create a new object of a User using the constructor
     res.send("Thanks for trying to register")
 }
 
