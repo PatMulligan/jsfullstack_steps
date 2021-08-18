@@ -12,6 +12,9 @@ exports.logout = function() {
 }
 
 exports.register = function(req, res) {
+    console.log(req.body) // username is the name attribute of the input tag in the HTML form
+    console.log(req.body.username)
+    console.log(req.body.email)
     res.send("Thanks for trying to register")
 }
 
